@@ -1,0 +1,257 @@
+body,
+html {
+  margin: 0;
+}
+
+.login ul {
+  display: flex;
+  list-style: none;
+  margin-left: 1350px;
+}
+.login ul li {
+  padding: 5px;
+}
+
+.login ul li a {
+  color: #808080;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.login ul li a:hover {
+  text-decoration: underline;
+}
+.logo img {
+  width: 300px;
+  height: 56px;
+}
+.logo {
+  padding: 0 50px;
+  margin-left: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.row .divnav ul {
+  display: flex;
+}
+
+.divnav ul li {
+  padding: 2px;
+  margin-right: 65px;
+  list-style: none;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.divnav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.divnav ul li a:hover {
+  background-color: yellow;
+  padding: 12px;
+}
+
+.rowMain {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.rowMain ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.rowMain ul li {
+  width: 125px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #d3d3d3;
+  border: solid 1px #d3d3d3;
+}
+.rowMain ul li a {
+  text-decoration: none;
+  color: #0076ec;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.rowMain ul li:hover {
+  background-color: #0076ec;
+}
+.rowMain ul li:hover a {
+  color: white;
+}
+.main {
+  background-image: url(../img/Poster1_318.webp);
+  background-size: cover;
+  width: 2000px;
+  height: 1367px;
+  position: relative;
+  margin: 0;
+}
+.containerContent {
+  background-color: #f3f2f2;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 207px;
+  margin-right: 270px;
+}
+
+.filtro {
+  margin-left: 1087px;
+  padding-top: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.filtro span {
+  color: #0076ec;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.filtro .boton {
+  background-color: #ffffff;
+  color: #0076ec;
+  border: solid 1px #ffffff;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+.filtro .boton:hover {
+  background-color: #0076ec;
+  color: white;
+}
+
+.filtro .boton2 {
+  background-color: #0076ec;
+  color: #ffffff;
+  border: solid 1px #0076ec;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  margin: 10px;
+  padding: 10px;
+}
+.contenedorFila {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ficha {
+  width: 250px;
+  height: 470px;
+  border: 1px solid #d5d5d5;
+  box-shadow: 0px 1px 20px #d5d5d5;
+  margin-left: 70px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  font-family: "Oswald", sans-serif;
+}
+
+.ficha h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 23px;
+  color: #0076ec;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+}
+.ficha .ficha_img img {
+  width: 208px;
+  height: 308px;
+  margin-left: 20px;
+}
+.ficha .ficha-icons {
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  margin-left: 25px;
+}
+.containerfootIcons {
+  width: 100%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 50px 0 50px;
+  display: flex;
+  justify-content: center;
+}
+.containerFoot {
+  width: 1200px;
+  margin: 0 auto 0 auto;
+  padding: 20px 50px 0 50px;
+}
+.rowIcons ul {
+  display: flex;
+  list-style: none;
+}
+
+.rowIcons ul li {
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+footer i {
+  font-size: 50px;
+  color: #004987;
+}
+
+.menuFooter {
+  padding: 45px;
+  display: flex;
+}
+.MenuFootColumnas {
+  width: 100%;
+}
+.MenuFootColumnas h3 {
+  color: #004987;
+  margin-bottom: 12px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.MenuFootColumnas ul {
+  display: block;
+  list-style: none;
+}
+.MenuFootColumnas ul li {
+  display: list-item;
+  font-family: "Roboto", sans-serif;
+  line-height: 35px;
+}
+.MenuFootColumnas ul li a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 20px;
+}
+.buttonFoot {
+  font-size: 40px;
+  color: #004987;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.buttonFoot:hover {
+  background-color: ghostwhite;
+  border-color: gray;
+}
+
+.icons {
+  color: #fff10e;
+}
